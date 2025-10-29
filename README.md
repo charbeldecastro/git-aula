@@ -445,6 +445,51 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
 
 - `git switch <branch>` - Alterna para uma branch diferente no repositório local. Use `git switch -c <branch>` para criar e alternar para uma nova branch.
 
+## 🔄 Fluxo de trabalho: Enviando mudanças para o GitHub
+
+Siga estes passos na ordem para enviar suas alterações do PC para o GitHub:
+
+### Passo a passo:
+
+**1. Baixar as atualizações do GitHub (sempre faça isso primeiro!)**
+```bash
+git pull
+```
+
+**2. Tentar enviar (para verificar se está tudo sincronizado)**
+```bash
+git push
+```
+
+**3. Verificar quais arquivos foram modificados**
+```bash
+git status
+```
+
+**4. Adicionar os arquivos que você quer enviar**
+```bash
+git add nome-do-arquivo.txt
+# ou adicionar todos os arquivos de uma vez:
+git add .
+```
+
+**5. Fazer o commit com uma mensagem descritiva**
+```bash
+git commit -m "Sua mensagem descritiva aqui"
+```
+
+**6. Enviar as mudanças para o GitHub**
+```bash
+git push origin main
+```
+
+### 📝 Dicas importantes:
+
+- **Sempre faça `git pull` primeiro** para evitar conflitos
+- Use mensagens de commit claras, como: "Adiciona novas frases" ou "Corrige erro de digitação"
+- O comando `git add .` adiciona **todos** os arquivos modificados de uma vez
+- Se der erro no push, faça `git pull` novamente e resolva conflitos se necessário
+
 # Glossário 📖
 
 - `fork` - Cópia de um repositório para a sua própria conta no GitHub. Isso cria um novo repositório em sua conta que é independente do original, permitindo que você faça alterações sem afetar o repositório original.

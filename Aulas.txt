@@ -36,4 +36,4 @@ Aula 43 - Atualizando Modificações Entre Repositório Local e Remoto
 
 Aula 44 - Trazendo um Repositório Remoto para Minha Máquina
 
-Aula 45 Utilizando o Github como um controle de versão completo
+Aula 45 - Utilizando o Github como um controle de versão completo
